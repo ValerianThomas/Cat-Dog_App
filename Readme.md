@@ -8,7 +8,7 @@
 ## Overview
 Mobile application allowing a user to differentiate cats from dogs based on a picture.
 
-The application runs on top of the Cat vs Dog API.
+The application runs on top of the Cat vs Dog API https://github.com/ValerianThomas/Cat-Dog_Backend/blob/master/Readme.md
 
 ## Features
 Picture taking …
