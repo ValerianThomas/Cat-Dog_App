@@ -1,8 +1,9 @@
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 ![](./readmeAssets/Image.png)
 # Mobile Application For Cat or Dog Prediction
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Overview
 Mobile application allowing a user to differentiate cats from dogs based on a picture.
 
