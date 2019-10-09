@@ -1,7 +1,7 @@
 
 
 
-![](Readme/Group%209.png)
+![](./readmeAssets/Image.png)
 # Mobile Application For Cat or Dog Prediction
 ## Overview
 Mobile application allowing a user to differentiate cats from dogs based on a picture.
