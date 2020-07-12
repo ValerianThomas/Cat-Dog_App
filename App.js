@@ -9,7 +9,6 @@
 import React, { useState } from 'react'
 import { StyleSheet, Text, View, TouchableOpacity, Image, ActivityIndicator } from 'react-native';
 import { RNCamera } from 'react-native-camera';
-import { MODEL_ADDRESS } from 'react-native-dotenv'
 
 import Modal from './components/Modal'
 
@@ -23,7 +22,7 @@ export default function App() {
     let data = new FormData()
     data.append('file', { uri: img_uri, name: 'image.jpg', type: 'image/jpeg' })
     console.log("passing data", data)
-    fetch(MODEL_ADDRESS, {
+    fetch(process.env["MODEL_ADDRESS"], {
       method: 'POST',
       body: data,
       headers: {
